@@ -67,3 +67,15 @@ if tobs > t_crit:
 else:
     print("Accept Null Hypothesis. Hence the Mileage has not improved.")
 
+---------------------------------------------------------------------------------------
+
+
+correlation
+
+
+import numpy as np
+head=np.array([17,15,19,17,21])
+height=np.array([150,154,169,172,175])
+correlation_coefficient=np.corrcoef(head,height)[0,1]
+print("correlation coefficient:",correlation_coefficient)
+
